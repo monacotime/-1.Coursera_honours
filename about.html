@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- My styles -->
+        <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./styles/tabs.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="./styles/container.css">
+
+        <title>Hello, world!</title>
+    </head>
+<body>
+    <!-- Body Starts From Here -->
+
+
+
+    <!--  -->
+
+
+    <!-- Navigation bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light my-navbar">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/Logo 50.png" alt="logo">
+        </a>
+        <!-- button for small screen toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./admission.html">Admission</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- PH --><div class="container" style="height: 70px;"></div>
+
+    <!-- Main container -->
+
+    
+    <div class="row" style="justify-content: center;">
+        <!-- Small screen left column -->
+        <div class="col-12 d-md-none" style="background-color: #c9b09d;">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link my-tab-link active" data-toggle="pill" href="#principal-tab" id="principal-label" aria-controls="principal-tab" aria-selected="true">Principal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my-tab-link" data-toggle="pill" href="#classes-tab" id="classes-label" aria-controls="classes-tab" aria-selected="true">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my-tab-link" data-toggle="pill" href="#professors-tab" id="professors-label" aria-controls="professors-tab" aria-selected="true">Proffesor</a>
+                </li>
+              </ul>
+        </div>
+
+        <!-- left -->
+        <div class="d-none d-md-block col-4 col-md-2 left-column" style="background-color: #c9b09d;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 left-column-content">
+                        <h4><strong>Content</strong></h4>
+                    </div>
+                </div>
+                <!-- Tab pill links -->
+                <div class="row my-tab-row">
+                    <div class="col-10">
+                        <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link my-tab-link active" data-toggle="pill" href="#principal-tab" id="principal-label" aria-controls="principal-tab" aria-selected="true">Principal</a>
+                            <a class="nav-link my-tab-link" data-toggle="pill" href="#classes-tab" id="classes-label" aria-controls="classes-tab" aria-selected="true">Classes</a>
+                            <a class="nav-link my-tab-link" data-toggle="pill" href="#professor-tab" id="professor-label" aria-controls="professor-tab" aria-selected="true">Professors</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right -->
+        <div class="col-8 col-md-10 right-column" style="background-color: #f5f2f0;">
+            <div class="container pt-5 pl-5">
+                <!-- all tab rows here -->
+                <div class="row my-tab-row">
+                    <div class="tab-content">
+                    <!-- Principal tab -->
+                    <div class="tab-pane fade show active" id="principal-tab" role="tabpanel" aria-labelledby="principal-label">
+                        <div class="row pb-5" style="justify-content: center;">
+                            <h3><strong>Meet our Founder</strong></h3>
+                        </div>
+                        <div class="row pb-5" style="justify-content: center;">
+                            <img class="img-fluid" src="./assets/principal.jpg" alt="Principal">                            
+                        </div>
+                        <div class="row" style="justify-content: center;">
+                            <div class="col-sm-10 my-tab-div">
+                                <h3><strong>Dr Manojit Roy</strong></h3>
+                                <h4 class="pb-5">The M.R Class Society believes in student-empowerment through education. The strength of the nation lies in the strength of the student community. The society lays its focus on achieving unparalleled excellence by optimizing the potential of students, and working towards their holistic growth, for the welfare of the society, and humanity at large. -President M.R Classes </h4>
+                                <h4 class="pb-5">In the early part of the twentieth century, the architects of the Constitution of India visualized and concluded that the education system has to be a powerful instrument of social, economic and cultural transformation necessary for the realization of India's national goals. Their dream then was to develop an education system that would increase national productivity, achieve social & national integration, accelerate the process of modernization and cultivate social, moral and spiritual values.</h4>
+                                <!-- quote -->
+                                <div class="card">
+                                    <div class="card-body">
+                                        <blockquote class="blockquote mb-0">
+                                            <p>“Education is the most powerful weapon which you can use to change the world.” </p>
+                                            <footer class="blockquote-footer">Nelson Mandela </footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                            
+                    </div>
+                    <!-- classes tab -->
+                    <div class="tab-pane fade" id="classes-tab" role="tabpanel" aria-labelledby="classes-label">
+                        <div class="row pb-5" style="justify-content: center;">
+                            <h3><strong>Our Unique Class Design</strong></h3>
+                        </div>
+                        <div class="row pb-5" style="justify-content: center;">
+                            <img class="img-fluid" src="./assets/class image.jpg" alt="classes">
+                        </div>
+                        <div class="row" style="justify-content: center;">
+                            <div class="col-sm-10 my-tab-div">
+                                <h4 class="pb-5">Students need to be in classrooms that inspire them—spaces that are light, airy, and filled with examples of work that they aspire to do. Each school will have a variety of spacious classroom settings. Some will be more traditional in the way that we envision classrooms now, but others might be set up outside or within an atrium or amphitheater. There might be desks, cushions, or benches arranged in rows or circles—however the teachers want 
+                                    them, as not every classroom will follow a template. Each classroom will be set up based on what is necessary to meet learning objectives. 
+                                </h4>
+                                <h4>Creative classrooms don’t just look different, they feel different. They provide an environment where students are more likely to express their ideas, think outside the box, challenge problems with innovative ideas and solutions and most importantly—learn faster and more effectively.</h4>
+                            </div>
+                        </div>
+                        <div class="row pb-5" style="justify-content: center;">
+                            <div class="col-sm-4 pb-5">
+                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                          <img src="./assets/class 7.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./assets/class 6.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./assets/class 5.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Professor tab -->
+                    <div class="tab-pane fade mr-3" id="professor-tab" role="tabpanel" aria-labelledby="professor-label">
+                        <div class="row mb-5 pt-5" style="justify-content: center; background-color: gray; color: honeydew;">
+                            <h3 style="text-align: center;"><strong>Our teaching faculty consists of highly trained proffesionals with with more than 5 years of teaching experiance</strong></h3>
+                            <hr>
+                        </div>
+                        <div class="row">
+                            <div class="card border-secondary">
+                                <div class="card-body pt-5 pl-5">
+                                    <!-- Rows for each professor -->
+                                    <div class="row pb-5">
+                                        <div class="col-md-4">
+                                            <img src="./assets/Physics.jpg" alt="physics">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h3 class="card-title">Physics professor</h3>
+                                            <h4 class="card-subtitle"><strong>- D.R Modi </strong></h4>
+                                            <h4>Leveraging my 14+ years of experience, I anticipate that I will be able to contribute highly to helping students meet their curriculum goals, and provide them with a wider view of perception of this form of science.  </h4>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="row pb-5" style="justify-content: right;">
+                                        <div class="col-md-7">
+                                            <h3 class="card-title">Maths professor</h3>
+                                            <h4 class="card-subtitle"><strong>- Mahesh Komal</strong></h4>
+                                            <h4>Since I have taught students ranging from ages 8 to 16, I am well aware of all levels of Maths education and can quite comfortably incorporate technology into regular lessons. I believe this skill will help students in learning through both conventional means and modern ways. </h4>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="./assets/Maths.jpg" alt="maths">
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="row pb-5">
+                                        <div class="col-md-4">
+                                            <img src="./assets/Biology.jpg" alt="biology">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h3 class="card-title">Biology professor</h3>
+                                            <h4 class="card-subtitle"><strong>-Neeta Sarode </strong></h4>
+                                            <h4>I am an enthusiastic and passionate individual who enjoy sharing knowledge with a proven record of helping children progress through positive learning experiences. I have enriching experience in training and developing the effective behaviour management system of children. </h4>
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <div class="row pb-5">
+                                        <div class="col-md-7">
+                                            <h3 class="card-title">Chemistry professor</h3>
+                                            <h4 class="card-subtitle"><strong>-Vinod Guptapapa  </strong></h4>
+                                            <h4>A Teacher is responsible for preparing lesson plans and educating students at all levels. Their duties include assigning homework, grading tests, and documenting progress. Teachers must be able to instruct in a variety of subjects and reach students with engaging lesson plans. And I plan to do just that! </h4>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <img src="./assets/Chemistry.jpg" alt="chemistry">
+                                        </div>
+                                        <hr>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="row" style="background-color: grey; justify-content: center;">
+        <div class="col-12 col-sm-4 align-self-center">
+            <a class="btn btn-social-icon btin-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+            <a class="btn btn-social-icon btin-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+            <a class="btn btn-social-icon btin-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+            <a class="btn btn-social-icon btin-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+            <a class="btn btn-social-icon btin-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+            <a class="btn btn-social-icon " href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+        </div>
+    </div>
+</footer>
+    <!--  -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

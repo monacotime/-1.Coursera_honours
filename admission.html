@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- My styles -->
+        <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./styles/tabs.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="./styles/container.css">
+
+        <title>Hello, world!</title>
+    </head>
+<body>
+    <!-- Body Starts From Here -->
+
+
+
+    <!--  -->
+
+
+    <!-- Navigation bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light my-navbar">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/Logo 50.png" alt="logo">
+        </a>
+        <!-- button for small screen toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">Admission</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- PH --><div class="container" style="height: 70px;"></div>
+
+    <!-- Main container -->
+
+    
+    <div class="row" style="justify-content: center;">
+        <!-- Small screen left column -->
+        <div class="col-12 d-md-none" style="background-color: #c9b09d;">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link my-tab-link active" data-toggle="pill" href="#addmission-tab" id="addmission-label" aria-controls="addmission-tab" aria-selected="true">Admission</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- left -->
+        <div class="d-none d-md-block col-4 col-md-2 left-column" style="background-color: #c9b09d;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 left-column-content">
+                        <h4><strong>Content</strong></h4>
+                    </div>
+                </div>
+                <!-- Tab pill links -->
+                <div class="row my-tab-row">
+                    <div class="col-10">
+                        <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link my-tab-link active" data-toggle="pill" href="#admission-tab" id="admission-label" aria-controls="admission-tab" aria-selected="true">Admission</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right -->
+        <div class="col-8 col-md-10 right-column" style="background-color: #f5f2f0;">
+            <div class="container pt-5 pl-5">
+                <!-- all tab rows here -->
+                <div class="row my-tab-row">
+                    <div class="tab-content">
+                        <!-- Admission tab -->
+                        <div class="tab-pane fade show active" id="admission-tab" role="tabpanel" aria-labelledby="admission-label">
+                            <!-- Jumbotron of cou-- -->
+                            <div class="row">
+                                <div class="col">
+                                    <div class="jumbotron jumbotron-fluid" style="background-color: gray; justify-content: center;">
+                                        <div class="col">
+                                            <div id="banner" class="carousel slide pl-3" data-ride="carousel">
+                                                <div class="carousel-inner" role="listbox">
+                                                    <div class="row carousel-item active" style="justify-content: center;">
+                                                        <div class="row">
+                                                            <div class="col-4">
+                                                                <img class="d-block img-fluid" src="./assets/10.jpg" alt="11th">
+                                                            </div>
+                                                            <div class="col-8 pt-5" style="background-color: #c9b09d;">
+                                                                <h5><strong>11th standard admissions started!</strong></h5>
+                                                                <p>Entrance Exams for students aspiring for JEE and NEET started</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row carousel-item" style="justify-content: center;">
+                                                        <div class="row">
+                                                            <div class="col-4">
+                                                                <img class="d-block img-fluid" src="./assets/12.jpg" alt="12th">
+                                                            </div>
+                                                            <div class="col-8 pt-5" style="background-color: #c9b09d;">
+                                                                <h5><strong>12th Admissions in full swing!</strong></h5>
+                                                                <p>Entrance Exams for students aspiring for JEE and NEET started</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="carousel-caption" style="color: black;">
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <a class="carousel-control-prev" href="#banner" role="button" data-slide="prev">
+                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#banner" role="button" data-slide="next">
+                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                        <span class="sr-only">Next</span>
+                                                    </a>   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="card-columns">
+                                    <div class="card">
+                                        <img class="card-img-top" src="./assets/10.jpg" alt="11th">
+                                        <div class="card-body">
+                                            <h5 class="card-title">11th standard admissions started</h5>
+                                            <p class="card-text">In order to enroll in our 1 year 11th standard program. Students are required to give mandatory entrance test. Schedule for the tests will be provided by our assistant. In order to register, please contact our assistance.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card p-3">
+                                        <blockquote class="blockquote mb-0 card-body">
+                                            <span class="badge badge-primary">IMP</span>
+                                            <p>Test classes for students entering our 11th standard program started!</p>
+                                            <footer class="blockquote-footer">
+                                            <small class="text-muted">
+                                              - Principal M.R classes
+                                            </small>
+                                          </footer>
+                                        </blockquote>
+                                    </div>
+                                    <div class="card">
+                                        <img class="card-img-top" src="./assets/12.jpg" alt="12th">
+                                        <div class="card-body">
+                                            <h5 class="card-title">12th standard admissions are in full swing!</h5>
+                                            <p class="card-text">We have recived an overwhelming respose for our 12th std crash course program.</p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-primary">
+                                            Available Boards program
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">11th Std: 1.4L</li>
+                                                <li class="list-group-item">12th Std: [boards only]: 75K</li>
+                                                <li class="list-group-item">11th + 12th: [boards only]: 2L</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-primary">
+                                            Available JEE & NEET programs
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">12th + JEE: 2L</li>
+                                                <li class="list-group-item">12th + NEET: 2.3L</li>
+                                                <li class="list-group-item">12th + JEE + NEET: 2.5L</li>
+                                                <li class="list-group-item">12th + CET: 1L <span class="badge badge-primary">New</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header bg-secondary">
+                                            We also provide extra learning programs like
+                                        </div>
+                                        <div class="card-body">
+                                            <ul class="list-group">
+                                                <li class="list-group-item">11th crash course: 50K</li>
+                                                <li class="list-group-item">12th crash course: 75K</li>
+                                                <li class="list-group-item">JEE crash course: 60K</li>
+                                                <li class="list-group-item">NEET crash course: 60K<span class="badge badge-primary">New</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="card" style="background-color: #c9b09d;">
+                                        <img class="card-img-top" src="./assets/Logo big.png" alt="logo">
+                                        <div class="card-body" style="background-color: gray;">
+                                            <p class="card-text">We are plannin on starting 9th and 10th standard badges soon. Our focus will be to train them to secure good grades in boards and other compititive exams.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="row" style="background-color: grey; justify-content: center;">
+            <div class="col-12 col-sm-4 align-self-center">
+                <a class="btn btn-social-icon btin-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a class="btn btn-social-icon btin-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                <a class="btn btn-social-icon btin-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a class="btn btn-social-icon btin-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="btn btn-social-icon btin-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                <a class="btn btn-social-icon " href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--  -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

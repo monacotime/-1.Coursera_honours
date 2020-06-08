@@ -1,0 +1,32 @@
+.my-tab-link {
+    text-align: center;
+    font-size: medium;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #0c090a;
+    font-weight: bold;
+}
+
+.my-tab-div {
+    padding-bottom: 30px;
+}
+
+.nav-pills > a.active {
+    background-color: gray !important;
+    color: black !important;
+}
+  
+.nav-pills > a:hover {
+    color: black !important;
+}
+
+
+.my-tab-row {
+    justify-content: center;
+}
+
+.tab-pane {
+    font-size: large;
+}

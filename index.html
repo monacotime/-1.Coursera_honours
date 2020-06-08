@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <!-- My styles -->
+        <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./styles/tabs.css">
+        <link rel="stylesheet" href="./styles/navbar.css">
+        <link rel="stylesheet" href="./styles/container.css">
+
+
+        <title>Hello, world!</title>
+    </head>
+<body>
+    <!-- Body Starts From Here -->
+
+
+
+    <!--  -->
+
+
+    <!-- Navigation bar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light my-navbar">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/Logo 50.png" alt="logo">
+        </a>
+        <!-- button for small screen toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./admission.html">Admission</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- PH --><div class="container" style="height: 70px;"></div>
+
+    <!-- Main container -->
+    
+    
+    <div class="row" style="justify-content: center;">
+        <!-- Small screen left column -->
+        <div class="col-12 d-md-none" style="background-color: #c9b09d;">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link my-tab-link active" data-toggle="pill" href="#intro-tab" id="intro-label" aria-controls="intro-tab" aria-selected="true">Intro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link my-tab-link" data-toggle="pill" href="#news-tab" id="news-label" aria-controls="news-tab" aria-selected="true">News</a>
+                </li>
+              </ul>
+        </div>
+
+        <!-- left -->
+        <div class="d-none d-md-block col-md-2 left-column" style="background-color: #c9b09d;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 left-column-content">
+                        <h4><strong>Content</strong></h4>
+                    </div>
+                </div>
+                <!-- Tab pill links -->
+                <div class="row my-tab-row">
+                    <div class="col-10">
+                        <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link my-tab-link active" data-toggle="pill" href="#intro-tab" id="intro-label" aria-controls="intro-tab" aria-selected="true">Intro</a>
+                            <a class="nav-link my-tab-link" data-toggle="pill" href="#news-tab" id="news-label" aria-controls="news-tab" aria-selected="true">News</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- right -->
+        <div class="col-md-10 right-column" style="background-color: #f5f2f0;">
+            <div class="container pt-5 pl-5">
+                <!-- all tab rows here -->
+                <div class="row my-tab-row">
+                    <div class="tab-content">
+                        <!-- Intro tab -->
+                        <div class="tab-pane fade show active" id="intro-tab" role="tabpanel" aria-labelledby="intro-label">
+                            <div class="row my-tab-div">
+                                <div class="col-md-3">
+                                    <img src="./assets/class 2.jpg" alt="classroom" class="img-fluid">
+                                </div>
+                                <div class="col-md-6">
+                                    <h4>M.R Classes is a premier educational institute situated in the heart of Mumbai’s suburbs, Santacruz (West). It is a Gujarati-speaking linguistic minority institution offering quality-oriented education from higher secondary to doctoral programme. </h4>
+                                </div>
+                            </div>
+                            <div class="row my-tab-div" style="justify-content: center;">
+                                <div class="col-12 col-md-6">
+                                    <h4>M.R Classes is a premier educational institute situated in the heart of Mumbai’s suburbs, Santacruz (West). It is a Gujarati-speaking linguistic minority institution offering quality-oriented education from higher secondary to doctoral programme. </h4>
+                                </div>
+                                <div class="col-md-3">
+                                    <img src="./assets/class 3.jpg" alt="classroom" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="row my-tab-div" style="justify-content: right;">
+                                <div class="col-md-3">
+                                    <img src="./assets/class 5.jpg" alt="classroom" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <h4>Subsequently, to promote the all-round development of students and to facilitate education from K.G. to Ph.D. under one banner, the Internationally recognized M.R Classes institute goes above and beyond to fill all the academic needs of the student. </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- News tab -->
+                        <div class="tab-pane fade" id="news-tab" role="tabpanel" aria-labelledby="news-label">
+                            <div class="row mr-3" >
+                                <div class="card">
+                                    <div class="card-header" style="background-color: gray;">
+                                        <h3 class="card-title mt-3" style="color:honeydew;"><strong>News</strong></h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><strong>M.R Classes Final Year Exams: Kabhi haan, kabhi na leave students confused </strong></h5>
+                                        <h5 class="card-subtitle">4-Jun-2020        87297 </h6>
+                                        <h4>It’s a classic case of Kabhi Haan, Kabhi Na, when it comes to M.R Classes examinations as decision on Maharashtra Final year exams remains a moot point. University exams have quickly escalated from an academic dilemma to a political debate in the state with students waiting for a definitive answer. </h3>
+                                        <hr>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><strong>M.R Classes Exams get more supporters, teachers and principals push for exams - offer way ahead </strong><snap class="badge badge-success">New</snap></h5>
+                                        <h5 class="card-subtitle">4-Jun-2020        61101 </h6>
+                                        <h4>Maharashtra Teachers and Principal bodies have urged the Government to let them conduct exams and just issue guidelines for the same. Wishing no interference in conducting exams, they have come up with road map </h3>
+                                        <hr>                        
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title"><strong>Governor’s statement on final year exams worries students, colleges </strong><snap class="badge badge-danger">Hot</snap></h5>
+                                        <h5 class="card-subtitle">4-Jun-2020        61101 </h6>
+                                        <h4>Maharashtra Teachers and Principal bodies have urged the Government to let them conduct exams and just issue guidelines for the same. Wishing no interference in conducting exams, they have come up with road map </h3>
+                                        <hr>                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ---------------tabs -->
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="row" style="background-color: grey; justify-content: center;">
+            <div class="col-12 col-sm-4 align-self-center">
+                <a class="btn btn-social-icon btin-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                <a class="btn btn-social-icon btin-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                <a class="btn btn-social-icon btin-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                <a class="btn btn-social-icon btin-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                <a class="btn btn-social-icon btin-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                <a class="btn btn-social-icon " href="mailto:"><i class="fa fa-envelope-o fa-lg"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!--  -->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
